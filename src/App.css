@@ -120,7 +120,6 @@ nav {
 #creations-wrapper {
 	width: 100%;
 	height: 100vh;
-	background: white;
 }
 
 #creations-heading {
@@ -207,4 +206,42 @@ button {
 .item-4 {
 	grid-column-start: 4;
 	background-image: url("./react.png");
+}
+
+#contact-grid {
+	padding: 10em;
+	display: grid;
+	grid-template-columns: 4;
+	grid-template-rows: 1;
+	gap: 10em;
+}
+
+.contact-item-1 {
+	grid-column-start: 1;
+}
+.contact-item-2 {
+	grid-column-start: 2;
+}
+.contact-item-3 {
+	grid-column-start: 3;
+}
+.contact-item-4 {
+	grid-column-start: 4;
+}
+
+.contact-img {
+	width: 64px;
+}
+#contact {
+	display: flex;
+	justify-content: center;
+}
+#creation-contact {
+	background: rgb(255, 255, 255);
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0.30015756302521013) 0%,
+		rgba(255, 255, 255, 0.5130427170868348) 57%,
+		rgba(178, 139, 177, 1) 100%
+	);
 }

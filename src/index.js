@@ -11,7 +11,6 @@ ReactDOM.render(
 		<Home />
 		<Header />
 		<Creations />
-		<Contact />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
