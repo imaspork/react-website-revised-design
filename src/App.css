@@ -1,38 +1,210 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&family=Open+Sans:wght@300;400;600;800&family=Encode+Sans+SC:wght@100;300;400;500;600;800&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+	width: 100%;
+	height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	font-family: "Comfortaa", cursive;
+}
+h2 {
+	font-size: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#home-wrapper {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+		url(./bkg.jpg);
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+nav {
+	color: rgb(255, 255, 255);
+	padding-top: 2em;
+	width: 100%;
+	height: 5em;
+	position: absolute;
+	top: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#r-nav {
+	display: flex;
+	justify-content: space-around;
+	width: 30vw;
+	padding-right: 5em;
+	font-size: 0.9rem;
+}
+
+#nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5em;
+	height: 100%;
+	align-items: center;
+}
+
+.flashy-box {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	align-items: center;
+	height: 10em;
+	left: 5em;
+	top: 15em;
+	border: 1px solid white;
+	color: white;
+}
+.flashy-box h1 {
+	font-family: "Encode Sans SC", sans-serif;
+	font-weight: 300;
+	font-size: 3.5rem;
+	letter-spacing: 3px;
+	padding: 0.5em;
+}
+
+#about {
+	width: 75%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#about-wrapper {
+	display: flex;
+	justify-content: center;
+	padding: 10em;
+}
+
+.column-text {
+	width: 500px;
+	padding-top: 5em;
+	font-weight: 600;
+	color: gray;
+	font-size: 0.9rem;
+}
+
+.column {
+	font-family: "Open Sans", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.column h2 {
+	font-family: "Encode Sans SC", sans-serif;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+.year-text {
+	font-size: 0.9rem;
+	font-weight: 600;
+	padding: 1em;
+	width: 500px;
+	color: gray;
+	text-align: center;
+}
+
+#creations-wrapper {
+	width: 100%;
+	height: 100vh;
+	background: white;
+}
+
+#creations-heading {
+	padding: 5em;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+#creations-heading h1 {
+	font-family: "Encode Sans SC", sans-serif;
+	font-weight: 400;
+}
+
+button {
+	font-family: inherit;
+	letter-spacing: 2px;
+	font-weight: 700;
+	padding: 1.5em 2em;
+	background: white;
+	border: 1px solid black;
+}
+
+#grid-wrapper {
+	padding-left: 5em;
+	padding-right: 5em;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1em;
+	grid-template-rows: 3;
+}
+
+.grid-item {
+	height: 750px;
+	display: flex;
+	align-items: flex-end;
+	color: white;
+	opacity: 0.9;
+}
+
+.grid-item h1 {
+	font-family: "Encode Sans SC", sans-serif;
+	font-weight: 300;
+	background-color: rgba(0, 0, 0, 0.6);
+	line-height: 2rem;
+	width: 100%;
+	padding: 0.5em;
+	transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.grid-item:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	background-blend-mode: overlay;
+	transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.grid-item:hover h1 {
+	background-color: rgba(0, 0, 0, 0);
+	background-blend-mode: overlay;
+	color: black;
+	letter-spacing: 3px;
+	transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+	font-weight: 500;
+}
+.grid-item a {
+	text-transform: uppercase;
+	color: inherit;
+	text-decoration: none;
+}
+
+.item-1 {
+	grid-column-start: 1;
+	background-image: url("./ryzen.png");
+}
+
+.item-2 {
+	grid-column-start: 2;
+	background-image: url("./card.png");
+}
+
+.item-3 {
+	grid-column-start: 3;
+	background-image: url("./code.png");
+}
+
+.item-4 {
+	grid-column-start: 4;
+	background-image: url("./react.png");
 }
