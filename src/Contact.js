@@ -14,7 +14,11 @@ const Contact = () => {
 					href="https://www.linkedin.com/in/tyler-strong-46b0a4129/"
 					className="contact-item-1"
 				>
-					<img className="contact-img" src={linkedin}></img>
+					<img
+						className="contact-img"
+						src={linkedin}
+						alt="linkedIn"
+					></img>
 				</a>
 				<a
 					target="_blank"
@@ -22,7 +26,7 @@ const Contact = () => {
 					href="mailto:tyler.strong1@gmail.com?subject=Portfolio Website"
 					className="contact-item-2"
 				>
-					<img className="contact-img" src={gmail}></img>
+					<img className="contact-img" src={gmail} alt="gmail"></img>
 				</a>
 				<a
 					target="_blank"
@@ -30,7 +34,11 @@ const Contact = () => {
 					href="https://github.com/imaspork"
 					className="contact-item-3"
 				>
-					<img className="contact-img" src={github}></img>
+					<img
+						className="contact-img"
+						src={github}
+						alt="github"
+					></img>
 				</a>
 				<a
 					target="_blank"
@@ -38,7 +46,11 @@ const Contact = () => {
 					href="https://twitter.com/imtylre"
 					className="contact-item-4"
 				>
-					<img className="contact-img" src={twitter}></img>
+					<img
+						className="contact-img"
+						src={twitter}
+						alt="twitter"
+					></img>
 				</a>
 			</div>
 		</section>

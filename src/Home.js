@@ -13,7 +13,11 @@ function Home() {
 
 			<div id="about-wrapper">
 				<div id="about">
-					<img className="tyler-img" src={tylerbig}></img>
+					<img
+						className="tyler-img"
+						src={tylerbig}
+						alt="tyler portrait"
+					></img>
 					<div className="column">
 						<h2>LEADER IN ALL THINGS TYLER</h2>
 						<p className="column-text">
