@@ -1,13 +1,20 @@
 import React from "react";
-import Contact from "./Contact";
 
 const Creations = () => {
 	return (
-		<section id="creation-contact">
+		<section id="creations">
 			<div id="creations-wrapper">
 				<div id="creations-heading">
 					<h1>SOME CREATIONS</h1>
-					<button>More on Github</button>
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://github.com/imaspork/stats-preview-card-component"
+					>
+						<button>
+							<span>More on Github</span>
+						</button>
+					</a>
 				</div>
 				<div id="grid-wrapper">
 					<div className="item-1 grid-item">
@@ -56,7 +63,6 @@ const Creations = () => {
 					</div>
 				</div>
 			</div>
-			<Contact />
 		</section>
 	);
 };

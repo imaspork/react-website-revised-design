@@ -5,41 +5,37 @@ import tylerbig from "./tylerbig.png";
 function Home() {
 	return (
 		<div className="Home">
-			<FlashyBox textH1="Front End Developer" />
-			<div id="home-wrapper"></div>
+			<div id="home-wrapper">
+				<div id="box-wrapper">
+					<FlashyBox textH1="Front End Developer" />
+				</div>
+			</div>
+
 			<div id="about-wrapper">
 				<div id="about">
-					<img src={tylerbig}></img>
+					<img className="tyler-img" src={tylerbig}></img>
 					<div className="column">
 						<h2>LEADER IN ALL THINGS TYLER</h2>
 						<p className="column-text">
 							Founded in 1998, Tyler Strong development group has
-							been producing front end development since 2016.
+							been working with front end development since 2016.
 							Starting out with learning Python in his dorm room,
-							he quickly learned that he wanted to develop
+							he quickly switched to learning how to develop
 							websites. He took a class for HTML and CSS in 2017
 							and has been writing them ever since. Later in 2019,
 							he learned JavaScript. Tyler is proud to say he has
 							extensive knowledge of HTML5 and CSS, and is a
 							strong advocate for flex box usage and CSS grid. In
-							the past year, Tyler has done the following:
+							the past year, Tyler has done the following.{" "}
+							<b>Learned the basics of React.JS!</b> He has
+							deployed a bot to{" "}
+							<b>AWS servers configured with node.</b>
+							This <b>bot utilizes a private API</b> to fetch in
+							game market prices, and will suggest the best course
+							of actions to users for their task. He learned the
+							amazing tool that is <b>CSS grid.</b> Configured a
+							server with Nginx for a personal project.
 						</p>
-						<span className="year-text">
-							Configured an AWS server with node to run an API
-							fetching discord bot that tells game users the best
-							items to buy for their task at the given time.
-						</span>
-						<span className="year-text">
-							Learned the basics of React.JS
-						</span>
-						<span className="year-text">Made this website!</span>
-						<span className="year-text">
-							Learned the intricacies of CSS Grid
-						</span>
-						<span className="year-text">
-							Learned how to host a website website with Nginx
-						</span>
-						<span className="year-text">& More</span>
 					</div>
 				</div>
 			</div>

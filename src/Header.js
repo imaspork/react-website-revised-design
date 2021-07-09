@@ -7,10 +7,15 @@ const Header = () => {
 				<div id="nav-wrapper">
 					<h2>Tyler Strong</h2>
 					<div id="r-nav">
-						<a>About</a>
-						<a>Portfolio</a>
-						<a>Contact</a>
-						<a>Other</a>
+						<a className="link link-line" href="#about">
+							About
+						</a>
+						<a className="link link-line" href="#creations">
+							Portfolio
+						</a>
+						<a className="link link-line" href="#contact">
+							Contact
+						</a>
 					</div>
 				</div>
 			</nav>
