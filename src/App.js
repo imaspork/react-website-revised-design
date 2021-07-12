@@ -18,7 +18,7 @@ class App extends React.Component {
 		const darkModeBkg = isDark ? "dark-bkg" : "light-bkg";
 		const switchTextColor = isDark ? "white" : "black";
 		return (
-			<div>
+			<div id="dark-mode-wrapper" className={darkModeBkg}>
 				<div id="switch-container">
 					<div
 						onClick={() => this.setState({ isDarkMode: !isDark })}
@@ -46,7 +46,7 @@ class App extends React.Component {
 						</div>
 					</div>
 
-					<div id="about-wrapper" className={darkModeBkg}>
+					<div id="about-wrapper">
 						<div id="about">
 							<img
 								className="tyler-img"
@@ -84,7 +84,7 @@ class App extends React.Component {
 					</div>
 				</div>
 
-				<section id="creations" className={darkModeBkg}>
+				<section id="creations">
 					<div id="creations-wrapper">
 						<div id="creations-heading">
 							<h1>SOME CREATIONS</h1>
@@ -147,7 +147,7 @@ class App extends React.Component {
 					</div>
 				</section>
 
-				<section id="footer" className={darkModeBkg}>
+				<section id="footer">
 					<Contact />
 					<p className="center-text s-padding">
 						Tyler Strong &#169; 2021
