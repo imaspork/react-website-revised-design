@@ -1,7 +1,7 @@
 import "./App.css";
 import FlashyBox from "./FlashyBox";
 import tylerbig from "./tylerbig.png";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Contact from "./Contact";
 
 class App extends React.Component {
