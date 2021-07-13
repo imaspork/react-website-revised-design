@@ -82,7 +82,9 @@ export function App() {
 								course of actions to users for their task. He
 								learned the amazing tool that is{" "}
 								<b>CSS grid.</b> Configured a server with Nginx
-								for a personal project.
+								for a personal project. The next goal is to
+								implement React Router to alter the site url
+								when you navigate via navbar.
 							</p>
 						</div>
 					</div>
