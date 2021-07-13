@@ -24,12 +24,19 @@ export function App() {
 
 	const darkModeBkg = darkMode ? "dark-bkg" : "light-bkg";
 	const darkModeHome = darkMode ? "dark-bkg" : "home-bkg";
-	const darkModeText = darkMode ? "Dark" : "Light";
+	const darkModeText = darkMode ? (
+		<p>Dark{"\n"}Mode</p>
+	) : (
+		<p>Light{"\n"}Mode</p>
+	);
+	const darkToggle = darkMode
+		? "switch-button button-toggle"
+		: "switch-button";
 
 	return (
 		<div id="dark-mode-wrapper" className={darkModeBkg}>
 			<div id="switch-container">
-				<div onClick={isDark} id="switch" className={darkModeBkg}>
+				<div onClick={isDark} id="switch" className={darkToggle}>
 					<div className="switch-button"></div>
 				</div>
 				<span id="switch-text">{darkModeText}</span>
@@ -62,10 +69,13 @@ export function App() {
 								JavaScript. Tyler is proud to say he has
 								extensive knowledge of HTML5 and CSS, and is a
 								strong advocate for flex box usage and CSS grid.
-								In the past year, Tyler has done the following.{" "}
-								<b>Learned the basics of React.JS!</b> He's
-								currently looking into <b>React Hooks!</b> He
-								has deployed a bot to{" "}
+								In the past year, Tyler has done the following:
+								{"\n"}He recently learned{" "}
+								<b>
+									React.JS! This website even uses React
+									hooks.{" "}
+								</b>
+								He has deployed a bot to{" "}
 								<b>AWS servers configured with node. </b>
 								This <b>bot utilizes a private API</b> to fetch
 								in game market prices, and will suggest the best

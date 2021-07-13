@@ -112,7 +112,7 @@ button:hover {
 	align-items: center;
 
 	left: -2em;
-	top: 2.5em;
+	top: 2.75em;
 }
 .switch-button {
 	box-shadow: rgba(0, 0, 0, 0.3) 1.95px 1.95px 2.6px;
@@ -123,6 +123,8 @@ button:hover {
 	transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 #switch-text {
+	text-align: center;
+	white-space: pre-wrap;
 	transform: rotate(-90deg);
 	font-weight: 700;
 	font-size: 0.8rem;
@@ -248,10 +250,11 @@ button:hover {
 }
 
 .column-text {
+	white-space: pre-wrap;
 	font-weight: 600;
 	color: gray;
 	font-size: 0.9rem;
-	line-height: 1.5;
+	line-height: 1.8;
 }
 
 .column {
