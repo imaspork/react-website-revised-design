@@ -98,7 +98,7 @@ export function App() {
 						<a
 							target="_blank"
 							rel="noopener noreferrer"
-							href="https://github.com/imaspork/stats-preview-card-component"
+							href="https://github.com/imaspork"
 						>
 							<button>
 								<span>More on Github</span>
