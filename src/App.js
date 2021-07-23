@@ -3,6 +3,7 @@ import FlashyBox from "./FlashyBox";
 import tylerbig from "./tylerbig.png";
 import React, { useState, useEffect } from "react";
 import Contact from "./Contact";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 export function App() {
 	const [darkMode, setDarkMode] = useState(false);
@@ -122,9 +123,9 @@ export function App() {
 								<a
 									target="_blank"
 									rel="noopener noreferrer"
-									href="https://github.com/imaspork/stats-preview-card-component"
+									href="https://airqualitychecker.surge.sh/"
 								>
-									Card <br></br>Component
+									Air<br></br>Quality Checker
 								</a>
 							</h1>
 						</div>

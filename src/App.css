@@ -343,7 +343,7 @@ button:hover {
 }
 .item-2 {
 	grid-column-start: 2;
-	background-image: url("./card.png");
+	background-image: url("./airquality.png");
 	background-repeat: no-repeat;
 }
 .item-3 {
