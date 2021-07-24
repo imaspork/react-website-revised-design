@@ -125,7 +125,7 @@ export function App() {
 									rel="noopener noreferrer"
 									href="https://airqualitychecker.surge.sh/"
 								>
-									Air<br></br>Quality Checker
+									React Air<br></br>Quality Checker
 								</a>
 							</h1>
 						</div>
