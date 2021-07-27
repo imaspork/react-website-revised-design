@@ -359,7 +359,7 @@ button:hover {
 #contact-grid {
 	padding-top: 1.25em;
 	display: grid;
-	grid-template-columns: 4;
+	grid-template-columns: 5;
 	grid-template-rows: 1;
 	gap: 3em;
 }
@@ -375,7 +375,9 @@ button:hover {
 .contact-item-4 {
 	grid-column-start: 4;
 }
-
+.contact-item-5 {
+	grid-column-start: 5;
+}
 .contact-img {
 	width: 32px;
 }

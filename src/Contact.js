@@ -3,6 +3,8 @@ import github from "./github.png";
 import gmail from "./gmail.png";
 import linkedin from "./linkedin.png";
 import twitter from "./twitter.png";
+import resume from "./resume.png";
+import Tyler_Strong_Resume_2021 from "./Tyler_Strong_Resume_2021.pdf";
 
 const Contact = () => {
 	return (
@@ -50,6 +52,18 @@ const Contact = () => {
 						className="contact-img"
 						src={twitter}
 						alt="twitter"
+					></img>
+				</a>
+				<a
+					target="_blank"
+					rel="noopener noreferrer"
+					href={Tyler_Strong_Resume_2021}
+					className="contact-item-5"
+				>
+					<img
+						className="contact-img"
+						src={resume}
+						alt="Resume"
 					></img>
 				</a>
 			</div>

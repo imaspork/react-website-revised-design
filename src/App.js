@@ -59,32 +59,17 @@ export function App() {
 						<div className="column">
 							<h2>LEADER IN ALL THINGS TYLER</h2>
 							<p className="column-text">
-								Founded in 1998, Tyler Strong development group
-								has been working with front end development
-								since 2016. Starting out with learning Python in
-								his dorm room, he quickly switched to learning
-								how to develop websites. He took a class for
-								HTML and CSS in 2017 and has been writing them
-								ever since. Later in 2019, he learned
-								JavaScript. Tyler is proud to say he has
-								extensive knowledge of HTML5 and CSS, and is a
-								strong advocate for flex box usage and CSS grid.
-								In the past year, Tyler has done the following:
-								{"\n"}He recently learned{" "}
-								<b>
-									React.JS! This website even uses React
-									hooks.{" "}
-								</b>
-								He has deployed a bot to{" "}
-								<b>AWS servers configured with node. </b>
-								This <b>bot utilizes a private API</b> to fetch
-								in game market prices, and will suggest the best
-								course of actions to users for their task. He
-								learned the amazing tool that is{" "}
-								<b>CSS grid.</b> Configured a server with Nginx
-								for a personal project. The next goal is to
-								implement React Router to alter the site url
-								when you navigate via navbar.
+								Hi! Welcome to my website made with{" "}
+								<b>React.JS</b>. I'm currently in search for
+								Junior Front End Development positions that use
+								JavaScript frameworks such as React.JS. I've
+								taken a strong liking to React! Recently I made
+								a <b>REST application</b> that takes a users
+								location and returns data about air quality near
+								them. You can check it out down below. I've been
+								experimenting with React Hooks and libraries
+								such as <b>Chakra UI</b> and{" "}
+								<b>Framer-Motion. </b>.
 							</p>
 						</div>
 					</div>
